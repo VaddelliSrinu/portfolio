@@ -1,0 +1,576 @@
+body{
+    margin: 0;
+    padding-top: 30px;
+    color: white;
+    background-color: rgb(12, 12, 82);
+    
+}
+
+/* ---------Header section setup------------ */
+    header {
+        margin-bottom: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* Ensures the header stays on top of other content */
+        background-color: rgb(12, 12, 82); /* Adjust background as needed */
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+      }
+      
+.container{
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    
+    
+}
+.container-left {
+    padding-left: 20px;
+}
+.container-left h2{
+    text-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 10px 10px gray;
+    border-radius: 20px;
+    position: fixed;
+
+}
+.container-left h2 span{
+    color: chartreuse;
+    animation: change 30s infinite linear;
+}
+.container-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+.container-right a{
+    padding: 5px;
+    text-decoration: none;
+    margin: 8px;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px 5px gray
+
+}
+.container-right a:hover{
+    font-size:18px ;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/*@keyframes aaa{
+    0%{color: chartreuse;}
+    20%{color: gray;}
+    40%{color: white;}
+}*/
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px;
+    font-family: sans-serif;
+    background-color:burlywood;
+}
+.sub-about{
+    width: 40vw;
+    /*border: 2px solid red;*/
+    align-items: center;
+    margin-left: 40px;
+    padding-top:150px;
+}
+.sub-about-1{
+    width: 40vw;
+   /* border: 2px solid red;*/
+}
+.about-h1{
+    color:  rgb(12, 12, 82);
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Jacques Francois Shadow", serif;
+    
+}
+.about-p{
+    padding-left: 80px;
+    color: rgb(70, 56, 56);
+    font-size: 20px;
+
+}
+
+.about-image{
+    height: 70vh;
+    width: 30vw;
+    padding-left: -150px;
+    margin-left:50px
+}
+/* ------------Home section css code ---------*/
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    
+    color: white;
+    border-radius: 30px;
+    
+}
+.home-left {
+    width:60vw;
+    color: black;
+    border-radius: 30px;
+
+}
+.home-right {
+    margin-left: 80px;
+    margin-right: 100px;
+    border-radius: 30px;
+}
+.home-right-img{
+    height: 250px ;
+    width: 250px;
+    margin-left: 100px;
+    background-color: rgb(12, 12, 82);
+    box-shadow: 2px 3px 5px 5px #0932ac;
+    border-radius: 300px;
+}
+.home-h1 span{
+    color: rgb(52, 204, 6);
+    font-weight: 800;
+    font-size: 50px;
+
+}
+.button{
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    margin-bottom: 20px;
+    background: rgb(28, 7, 119);
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    box-shadow: 2px 2px 5px 5px  gray;
+}
+
+.home-p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 0;
+
+}
+
+/*------------------qualifications------------ */
+.qualification{
+    text-align: center;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+.qualification h1{
+    margin-bottom: 100px;
+    color: rgb(52, 204, 6);
+    font-weight: 800;
+    font-size: 40px;
+}
+.sub-qualification{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    width: 100%;
+    border-radius: 50px;
+   /* box-shadow: 2px 3px 100px 100px gray;*/
+    
+}
+.div-logo{
+    display: flex;
+}
+.ciet-logo{
+    height: 40px;
+    padding-top: 25px;
+    padding-left: 50px;
+    border-radius: 20px;
+}
+.div-logo h3{
+    padding-top: 17px;
+}
+.quali-b{
+    padding: 0;
+    box-shadow: 2px 5px black;
+    margin: 10px;
+    width: 500px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+.quali-b h3{
+    font-size: 20px;
+
+}
+.quali-b p{
+    font-size: 15px;
+}
+.quali-i{
+    border-radius: 30px;
+    box-shadow: 2px 5px black;
+    width: 500px;
+    margin: 10px;
+}
+.inter-logo{
+    display: flex;
+
+}
+.intermediate-logo{
+    height: 40px;
+    padding-top: 25px;
+    padding-left: 120px;
+    border-radius: 20px;
+}
+
+.quali-i h3{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.quali-i p{
+    font-size: 15px;
+}
+.quali-s{
+    padding: 0;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 2px 5px black;
+    margin: 10px;
+    margin-right: 50px;
+}
+.ssc-logo{
+    display: flex;
+}
+.ss-logo{
+    height: 35px;
+    padding-left: 100px;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+.ssc-logo h3{
+    font-size: 20px;
+    padding-top: 14px;
+}
+.quali-s p{
+    font-size: 15px;
+}
+
+/*.......................projects................*/
+.project{
+    margin: 50px;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    border-radius: 30px;
+}
+.project h1{
+    text-align: center;
+    color: rgb(52, 204, 6);
+    font-weight: 600;
+    font-size: 50px;
+}
+.sub-project{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    
+}
+.sub-project-1{
+    width: 80vw;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow:  2px 2px 10px 10px black;
+
+  
+}
+.sub-project-2{
+    width: 45vw;
+    margin: 20px;
+    padding: 15px;
+    box-shadow:  2px 2px 10px 10px black;
+    border-radius: 30px;
+    width: 80vw;
+
+}
+.sub-project-2-h3{
+    color: darkgray;
+    font-size: 25px;
+}
+.sub-project-2-p{
+    color: rgb(232, 231, 236);
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.sub-project-2-span{
+    color: darkgray;
+    font-weight: bold;
+}
+.project-logo-drive{
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 2px 2px 10px darkgray;
+    margin-top: 20px;
+
+
+}
+.project-logo-drive:hover{
+    background-color:darkgreen;
+    font-size: 25px;
+}
+.sub-project-h3{
+    color:darkgray;
+    font-size: 25px;
+}
+.span-p{
+    color: darkgrey;
+    font-weight: bold;
+}
+.sub-project-p{
+    color: rgb(234, 232, 241);
+    font-size: 16px;
+    font-weight: bold;
+}
+/*..................INTERNSHIPS...........*/
+.intern{
+    margin-top: 100px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: gray;
+
+}
+.intern-h1{
+    margin: 80px;
+    color: rgb(52, 204, 6);
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.sub-intern{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intern-1{
+    margin: 10px;
+    padding: 15px;
+    color: gray;
+    border-radius: 30px;
+    width: 80vw;
+    margin-left: 70px;
+    box-shadow: 2px 2px 10px black;
+}
+.logo-1{
+    display: flex;
+    padding-left: 90px;
+    align-items: center;
+}
+
+.intern-2{
+    border-radius: 30px;
+    margin: 10px;
+    padding: 15px;
+    width: 80vw;
+    color: darkgray;
+    margin-right: 70px;
+    margin-left: 70px;
+    box-shadow: 2px 2px 10px black;
+
+}
+.intern-2-p{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.intern-2-pp{
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    margin-left: 350px;
+    
+}
+.logo{
+    display: flex;
+    padding-left: 100px;
+}
+
+
+.certificate{
+    text-decoration: none;
+    color: white;
+    background: rgb(28, 7, 119);
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px white;
+}
+.certificate:hover{
+    background-color: black;
+    font-size:25px ;
+    color:green;
+}
+
+/* ...............           skills     .................         */
+
+.skills{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    margin-top: 150px;
+}
+.skills h1{
+    text-align: center;
+    margin-bottom: 60px;
+    color: rgb(52, 204, 6);
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.sub-skills-h4{
+    color: #92a8d1;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.sub-skills-ul{
+    font-weight: bold;
+    font-size: 16px;
+    list-style: none;
+    color: #b1cbbb;
+}
+.sub-skills-div{
+    margin-top: -20px;
+}
+
+/*------------------------contact--------------------*/
+.contact{
+    margin: 50px;
+    margin-top: 150px;
+    font-family: sans-serif;
+}
+.contact-h1{
+    text-align: center;
+    margin-bottom: 60px;
+    color: rgb(52, 204, 6);
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+.sub-contact{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact-info{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 300px;
+    width: 50vw;
+}
+.social-icons{
+    width: 50vw;
+}
+.social-icons a i{
+    letter-spacing: 20px;
+    color: aqua;
+}
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Mobile styles */
+/* Mobile view adjustments */
+@media only screen and (max-width: 768px) {
+    /* Header */
+    header .container-right a {
+        display: block;
+        padding: 10px;
+    }
+
+    header .container-left h2 {
+        font-size: 24px;
+    }
+
+    /* About section */
+    .about .about-h1 {
+        font-size: 22px;
+    }
+
+    .about .about-p {
+        font-size: 14px;
+    }
+
+    /* Image adjustments */
+    .about-image,
+    .home-right-img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Qualifications */
+    .sub-qualification {
+        display: block;
+    }
+
+    .quali-b, .quali-i, .quali-s {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    /* Projects section */
+    .sub-project {
+        flex-direction: column;
+    }
+
+    .sub-project-1,
+    .sub-project-2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Contact section */
+    .contact-info p {
+        font-size: 14px;
+    }
+
+    .social-icons i {
+        font-size: 20px;
+    }
+
+    /* General text adjustments */
+    h1, h2, h3, p {
+        text-align: center;
+    }
+}
